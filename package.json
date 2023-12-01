@@ -1,0 +1,23 @@
+{
+  "name": "msw-2-overwrite-repro",
+  "version": "1.0.0",
+  "description": "Minimal usage example of Mock Service Worker in a React application.",
+  "keywords": [
+    "msw",
+    "mocking",
+    "react",
+    "api"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@mswjs/data": "^0.16",
+    "msw": "^1"
+  },
+  "volta": {
+    "node": "18.16.1",
+    "yarn": "1.22.19"
+  },
+  "msw": {
+    "workerDirectory": "public"
+  }
+}
